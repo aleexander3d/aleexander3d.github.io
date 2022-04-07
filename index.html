@@ -1,80 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Portfoli Alexander</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
-	<title>Portfoli Alexander Hernández</title>
-
-<a HREF="#Torna a l'inici"> <u>Ves al final </u></a>
-<a name="Ves al final"></a>
-	<h1>Portfoli Alexander Hernández</h1>
-	
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-
-</head>
-
-<style>
-	body{
-
-		color: floralwhite;
-		background-color: lightsalmon;
-	}
-
-p{
-	font-family: sans-serif;
-	background-color: orangered;
-
-	
-}
-h1,h2{
-	font-family: 'Bubblegum Sans', cursive;
-
-	-webkit-box-shadow: 10px 9px 30px 7px rgba(0,0,0,0.66); 
-box-shadow: 10px 9px 30px 7px rgba(0,0,0,0.66);
-}
-</style>
-
+</head> 
 <body>
-<img src="images/gif/roto.gif" width="500" height="300">
+    <header></header><div class="box">   
+    <h1 class="portfoli">ALEXANDER HERNÁNDEZ</h1>   
+    
+     <nav>
+      <div>
+        <a class="boto" href="index.html">INICI</a> 
+        <a class="boto" href="Nivells/projectes/index.html">PROJECTES</a> 
+        <a class="boto" href="Nivells/sobre/index.html">SOBRE MI</a> 
+        <<a class="boto" href="Nivells/faq/index.html">FAQ</a> 
+        <a class="boto" href="Nivells/contacte/index.html">CONTACTE</a> 
+      </div></nav>
+      
+        <hr class="linies">     
+        <br></nav>
+           <div class="slideshow-container">
 
-<hr>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade"> 
+    <img src="imatges/ak.png" style="width:100%">
+    <div class="text">AK47</div>
+  </div>
 
-<p> Sóc l'Alexander Hernández, estudiant de cicle superior en animació 3d, 2d i entorns interactius a la <abbr title="Universitat de Vic, Universitat Central de Catalunya">UVIC-UCC</abbr>. Em vaig decidir per estudiar aquest cicle ja que sempre m'ha interessat com estaven fetes les coses derrere de càmera, en aquest cas els videojocs i pel·lícules d'animació o pel·lícules que continguin efectes especials tals com CGI o d'altres.</p>
+  <div class="mySlides fade">
+    <img src="imatges/barr_1.png" style="width:100%">
+    <div class="text">Bar</div>
+  </div>
 
+  <div class="mySlides fade">
+    <img src="imatges/cancha_color.png" style="width:100%">
+    <div class="text">Cancha</div>
+  </div>
 
+  <div class="mySlides fade">
+    <img src="imatges/duchas.png" style="width:100%">
+    <div class="text">Duchas</div>
+  </div>
 
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
 <br>
-<h2>PROGRAMES</h2>
 
-<p>Aquests son alguns dels programes que utilitzo pel meu treball:</p>
-<ul>
-	<li>Autodesk Maya</li>
-	<ul>
-		<li>Modelar en 3D</li>
-		<li>Fer UV</li>
-		<li>Afegir materials</li>
-		
-	</ul>
-	<li>ZBrush</li>
-	<li>Adobe Substance Painter</li>
-	<li>Adobe Photoshop 2021</li>
-	<li>Adobe Premiere Pro 2021</li>
-</ul>
-<br>
-<br>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+</div>
 
-<h2>PROJECTES</h2>
+<script type="text/javascript">var slideIndex = 1;
+showSlides(slideIndex);
 
-<b>Aqui estan els meus links tant a <a href="https://www.artstation.com/aleexaander3d"target="_blank">ArtStation</a> com a <a href="https://www.behance.net/alexandhernnd14"target="_blank">Behance</a>.</b>
-<p>Als links pots trobar els treballs que he fet o encara estan en procès més destacats</p>
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-<img src="images/svg/svg.svg" width="500" height="300">
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}</script>
 
-<A HREF="#Ves al final"><u>Torna a l'inici </u></A>
-<a name="Torna a l'inici"></a>
+    <br><br>
+     
+    <a class="mail"href="mailto:alexanderhlorenzo@gmail.com?subject=Interes Portfoli">CONTACTA AMB MI</a>
+       
+    
 </body>
 </html>
+        
