@@ -31,7 +31,9 @@ color: white;
   box-sizing: border-box;
 }
 
-.boto:hover { background: #a7e2e6; }
+.boto:hover { background: #a7e2e6; 
+border-radius: 5px;
+}
 
 
 .boto{
@@ -49,7 +51,21 @@ color: white;
   max-width: 700px;
 }
 
+.pregunta{
+font-family: 'Lexend', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 30px;
 
+
+}
+.resposta{
+font-family: 'Architects Daughter', cursive;
+ color: white;
+  text-align: left;
+  font-size: 25px;
+
+}
 
 
 /*_____________________________________________________________________________________________________________________________________*/
