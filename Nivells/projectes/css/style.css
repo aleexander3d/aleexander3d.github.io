@@ -29,6 +29,7 @@ color: white;
   border-radius: 15px;
   margin: auto;
   box-sizing: border-box;
+   z-index: -1;
 }
 
 .boto:hover { background: #a7e2e6; 
@@ -54,18 +55,31 @@ border-radius: 5px;
 
 .img{
 margin: 5px;
-width: 50%;
+width: 200%;
 }
 
 
 
 /*_____________________________________________________________________________________________________________________________________*/
 
-.flex-container {
-  display: flex;
-    flex-wrap: wrap;
-align-content: center;   
- flex-direction: row;
-  
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
 }
 
