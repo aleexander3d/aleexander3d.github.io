@@ -54,7 +54,7 @@ border-radius: 5px;
 
 .img{
 margin: 5px;
-size: 50%;
+width: 50%;
 }
 
 
@@ -67,11 +67,5 @@ size: 50%;
 align-content: center;   
  flex-direction: row;
   
-}
-
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction:  column;
-  }
 }
 
