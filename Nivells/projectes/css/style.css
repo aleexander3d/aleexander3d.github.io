@@ -70,7 +70,7 @@ height: 70vh;
 
 /*_____________________________________________________________________________________________________________________________________*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 .containerflex{
   flex-direction: column;
