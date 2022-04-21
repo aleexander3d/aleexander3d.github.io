@@ -3,12 +3,21 @@ body{
  text-align: auto;
  }
   
-
+.center{
+  width: 100vw;
+}
 
 .portfoli{
 font-family: 'Righteous', cursive;
 text-align: center;
 font-size: 50px;
+color: white;
+}
+
+.titolproj{
+font-family: 'Righteous', cursive;
+text-align: center;
+font-size: 30px;
 color: white;
 }
 
@@ -50,6 +59,17 @@ border-radius: 5px;
   max-width: 700px;
   text-decoration: none;
   border: #F9FD08;
+}
+
+.explicacio{
+  font-family: 'Boogaloo', cursive;
+  border: none;
+  color:white;
+  font-size: 20px;  
+  padding: 15px 8px;
+  text-align: center;
+  margin: 4px 2px;
+  max-width: 700px;
 }
 
 .img{
