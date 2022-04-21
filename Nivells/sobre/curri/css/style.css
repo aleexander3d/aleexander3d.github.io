@@ -1,0 +1,69 @@
+body{
+  background-color: black;
+ text-align: auto;
+ }
+  
+
+
+.portfoli{
+font-family: 'Righteous', cursive;
+text-align: center;
+font-size: 50px;
+color: white;
+}
+
+.mail{
+text-align: center;
+font-family: 'Righteous', cursive;
+color: white;
+}
+.titols{
+font-family: 'Righteous', cursive;
+text-align: center;
+font-size: 20px;
+color: yellow;
+}
+.explicacio{
+  font-family: 'Boogaloo', cursive;
+  border: none;
+  color:white;
+  font-size: 20px;  
+  padding: 15px 8px;
+  text-align: center;
+  margin: 4px 2px;
+}
+
+.box{
+  text-align: center;
+  max-width:auto;
+  min-width:auto;
+  padding: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.boto:hover { background: #a7e2e6; 
+border-radius: 5px;
+}
+
+.boto{
+  font-family: 'Boogaloo', cursive;
+  border: none;
+  background-color:black;
+  color:#F9FD08;
+  cursor: pointer;
+  button: width: 20px;
+  display: inline-block;
+  font-size: 20px;  
+  padding: 15px 8px;
+  text-align: center;
+  margin: 4px 2px;
+  max-width: 700px;
+  text-decoration: none;
+}
+
+
+
+
