@@ -39,7 +39,7 @@
   <span class="close">&times;</span>
 
   <!-- Modal Content (The Image) -->
-  <model-viewer id="img01" src="images/butaca.gltf" camera-controls enable-pan>
+  <model-viewer class="modal-content" src="images/butaca.gltf" camera-controls enable-pan>
 </model-viewer>
 
 </div>
@@ -50,7 +50,7 @@
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
+var modalImg = document.getElementById("img0");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
