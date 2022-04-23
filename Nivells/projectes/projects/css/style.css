@@ -8,14 +8,14 @@ body{
 }
 
 .portfoli{
-font-family: 'Righteous', cursive;
+font-family: 'Poppins', sans-serif;
 text-align: center;
 font-size: 50px;
 color: white;
 }
 
 .titolproj{
-font-family: 'Righteous', cursive;
+font-family: 'Poppins', sans-serif;
 text-align: center;
 font-size: 30px;
 color: white;
@@ -23,7 +23,7 @@ color: white;
 
 .mail{
 text-align: center;
-font-family: 'Righteous', cursive;
+font-family: 'Poppins', sans-serif;
 color: white;
 }
 
@@ -45,7 +45,7 @@ border-radius: 5px;
 }
 
 .boto{
-  font-family: 'Boogaloo', cursive;
+font-family: 'Poppins', sans-serif;
   border: none;
   background-color:black;
   color:#F9FD08;
@@ -62,7 +62,7 @@ border-radius: 5px;
 }
 
 .explicacio{
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Poppins', sans-serif;
   border: none;
   color:white;
   font-size: 20px;  

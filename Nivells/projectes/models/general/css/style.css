@@ -1,12 +1,13 @@
 body{
   background-color: black;
-  overflow: hidden;
+ text-align: auto;
  }
   
 
 
 .portfoli{
 font-family: 'Poppins', sans-serif;
+
 text-align: center;
 font-size: 50px;
 color: white;
@@ -18,14 +19,15 @@ font-family: 'Poppins', sans-serif;
 color: white;
 }
 
-.containerflex{
-display: flex;
-flex-direction: row;
-overflow: hidden;
-
-
+.explicacio{
+font-family: 'Poppins', sans-serif;
+  border: none;
+  color:white;
+  font-size: 20px;  
+  padding: 15px 8px;
+  text-align: center;
+  margin: 4px 2px;
 }
-
 
 .box{
   text-align: center;
@@ -36,7 +38,6 @@ overflow: hidden;
   border-radius: 15px;
   margin: auto;
   box-sizing: border-box;
-   z-index: -1;
 }
 
 .boto:hover { background: #a7e2e6; 
@@ -44,7 +45,7 @@ border-radius: 5px;
 }
 
 .boto{
-  font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
   border: none;
   background-color:black;
   color:#F9FD08;
@@ -57,27 +58,5 @@ border-radius: 5px;
   margin: 4px 2px;
   max-width: 700px;
   text-decoration: none;
-  border: #F9FD08;
 }
 
-.img{
-
-width: 50vw;
-height: 70vh;
-}
-
-
-
-/*_____________________________________________________________________________________________________________________________________*/
-
-@media only screen and (max-width: 1200px) {
-  
-.containerflex{
-  flex-direction: column;
-}
-.img{
-width: 100vw;
-height: 30vh;
-}
-  
-}
