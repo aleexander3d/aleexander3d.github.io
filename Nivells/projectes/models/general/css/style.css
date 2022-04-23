@@ -59,3 +59,28 @@ font-family: 'Poppins', sans-serif;
   max-width: 700px;
   text-decoration: none;
 }
+
+.img{
+width: 50%;
+border-radius: 20px;
+margin: 5px;
+
+}
+.img:hover{
+transform: scale(1.5);
+}
+
+.imgp{
+width: 3%;
+border-radius: 20px;
+margin: 5px;
+
+}
+
+.flex-container {
+  text-align: center;
+  display: flex;
+    flex-wrap: wrap;
+align-content: center;   
+ flex-direction: row;
+}
