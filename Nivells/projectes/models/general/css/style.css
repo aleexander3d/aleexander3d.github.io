@@ -78,10 +78,15 @@ margin: 5px;
 }
 .fleximages{
   display: flex;
-    flex-wrap: wrap;
-   align-content: center;   
-   flex-direction: row;
+    flex-wrap: wrap; 
    justify-content: center;
+   margin: 40px;
+ }
+model-viewer{
+border-radius: 20px;
+height:30vw ;
+width: 50vw;
+}
 }
 .flex-container {
   display: flex;
