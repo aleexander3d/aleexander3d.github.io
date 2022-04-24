@@ -113,7 +113,14 @@ a
 }
 model-viewer{
 border-radius: 20px;
-width: 50%;
+width: 1300px;
+height: 200px;
 }
+
+.fleximages{
+  display: flex;
+    flex-wrap: wrap; 
+   justify-content: center;
+   margin: 0px;
 
 }
