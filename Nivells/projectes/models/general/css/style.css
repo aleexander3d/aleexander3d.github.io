@@ -25,7 +25,6 @@ font-family: 'Poppins', sans-serif;
   color:white;
   font-size: 20px;  
   padding: 15px 8px;
-  text-align: center;
   margin: 4px 2px;
 }
 
@@ -68,6 +67,7 @@ margin: 5px;
 }
 .img:hover{
 transform: scale(1.5);
+a
 }
 
 .imgp{
@@ -76,11 +76,32 @@ border-radius: 20px;
 margin: 5px;
 
 }
-
-.flex-container {
-  text-align: center;
+.fleximages{
   display: flex;
     flex-wrap: wrap;
-align-content: center;   
- flex-direction: row;
+   align-content: center;   
+   flex-direction: row;
+   justify-content: center;
+}
+.flex-container {
+  display: flex;
+    flex-wrap: wrap;
+   align-content: center;   
+   flex-direction: row;
+   justify-content: center;
+}
+
+@media only screen and (max-width: 1200px){
+  .img{
+    width: 100%;
+  }
+  .imgp{
+    width: 60px;
+    height: 60px;
+  }
+  .img:hover{
+transform: scale(1.1);
+a
+}
+
 }
