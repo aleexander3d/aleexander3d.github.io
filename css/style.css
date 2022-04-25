@@ -31,7 +31,8 @@ color: white;
   box-sizing: border-box;
 }
 
-.boto:hover { background: #a7e2e6; 
+.boto:hover { 
+background: gray; 
 border-radius: 5px;
 }
 
