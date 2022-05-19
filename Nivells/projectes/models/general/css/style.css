@@ -63,6 +63,8 @@ font-family: 'Poppins', sans-serif;
 width: 50%;
 border-radius: 20px;
 margin: 5px;
+transition-duration: .4s;
+transform: scale(1.0);
 
 }
 .img:hover{
@@ -124,3 +126,7 @@ height: 200px;
    margin: 0px;
 
 }
+
+
+/*_____________________________________________________________________________________________________________________________________*/
+* {box-sizing:border-box}

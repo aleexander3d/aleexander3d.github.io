@@ -40,24 +40,27 @@ font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
-.boto:hover { background: #a7e2e6; 
-border-radius: 5px;
+.boto:hover { 
+background: gray; 
+border-radius: 20px;
 }
 
 .boto{
-font-family: 'Poppins', sans-serif;
-  border: none;
+  justify-content: center;
+ font-family: 'Poppins', sans-serif;
   background-color:black;
   color:#F9FD08;
   cursor: pointer;
-  button: width: 20px;
   display: inline-block;
   font-size: 20px;  
   padding: 15px 8px;
   text-align: center;
   margin: 4px 2px;
-  max-width: 700px;
   text-decoration: none;
+  transition-duration: .4s;
+  border-radius: 10px;
+  height: 60px;
+
 }
 
 .titols{
@@ -66,3 +69,8 @@ text-align: center;
 font-size: 20px;
 color: yellow;
 }
+
+
+
+/*_____________________________________________________________________________________________________________________________________*/
+* {box-sizing:border-box}
